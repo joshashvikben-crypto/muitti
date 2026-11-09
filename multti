@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function Expression Demo</title>
+</head>
+<body>
+
+    <h1>Math Multiplier Project</h1>
+    <p>This project uses a JavaScript function expression to multiply two numbers and display the result directly on the page.</p>
+
+    <script>
+        // 5. Define a function expression that multiplies two numbers
+        const multiply = function(num1, num2) {
+            return num1 * num2;
+        };
+
+        // 6. Store the value returned by the function in a variable
+        const result = multiply(6, 7);
+
+        // 7. Print that value using the document.write() method
+        document.write("The result of the multiplication is: " + result);
+    </script>
+
+</body>
+</html>
